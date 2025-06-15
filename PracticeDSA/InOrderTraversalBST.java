@@ -13,6 +13,8 @@ public class InOrderTraversalBST {
         tree.root.right.left=new Node(0);
         tree.root.right.right=new Node(1);
 
+        inOrder(tree.root);
+
     }
     static class Node{
         Object data;
