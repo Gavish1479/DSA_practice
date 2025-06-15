@@ -20,7 +20,8 @@ public class InOrderTraversalBST {
     }
 
     public static void main(String[] args) {
-
+        InOrderTraversalBST tree=new InOrderTraversalBST();
+        tree.root=new Node(10);
 
     }
 }
