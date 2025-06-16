@@ -1,5 +1,3 @@
-import org.w3c.dom.Node;
-
 public class InOrderTraversalBST {
     Node root;
 
@@ -24,7 +22,7 @@ public class InOrderTraversalBST {
             this.data=data;
         }
     }
-    public void inOrder(Node root){
+    public static void inOrder(Node root){
         if (root!=null){
             inOrder(root.left);
             System.out.println(root.data);
