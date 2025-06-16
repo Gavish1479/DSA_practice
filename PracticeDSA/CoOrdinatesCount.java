@@ -1,7 +1,8 @@
 public class CoOrdinatesCount {
     public static void main(String[] args) {
         int[] a={0,0};
-        String s = "DURRDLLL";
+        String str = "DUrRDLLL";
+        String s=str.toUpperCase();
         for (char ch:s.toCharArray()){
             switch (ch){
                 case 'L':
